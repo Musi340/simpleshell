@@ -23,7 +23,7 @@ if (s[i] >= '0' && s[i] <= '9')
 catch_it = 1;
 int_num *= 10;
 int_num += (s[i] - '0');
-{
+}
 else if (catch_it == 1)
 break;
 i++;
